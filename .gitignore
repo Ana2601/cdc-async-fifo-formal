@@ -1,0 +1,22 @@
+# build / simulation output
+build/
+sim_build/
+obj_dir/
+results.xml
+*.vvp
+*.vcd
+*.fst
+*.gtkw
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# macOS
+.DS_Store
+*.log
+# SymbiYosys task directories
+formal/async_fifo/
+formal/async_fifo_bmc/
+formal/async_fifo_prove/
+formal/async_fifo_cover/
