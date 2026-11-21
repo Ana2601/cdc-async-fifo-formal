@@ -4,6 +4,8 @@
 
 A CDC library of the kind every SoC and FPGA design uses, with a dual-clock FIFO proven correct for arbitrary clock interleavings.
 
+![Architecture](docs/diagrams/architecture.svg)
+
 ## Contents
 
 | Module | Purpose |
@@ -50,6 +52,12 @@ make test     # 8 clock-ratio corners
 make formal   # bmc + prove + cover
 make lint
 ```
+
+## Test run
+
+Output of the CI command (`make test formal lint`), captured from a local run:
+
+![Test run](docs/screenshots/test_run.svg)
 
 ## Limitations
 
